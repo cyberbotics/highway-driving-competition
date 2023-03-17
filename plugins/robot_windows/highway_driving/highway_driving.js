@@ -1,4 +1,4 @@
-import RobotWindow from 'https://cyberbotics.com/wwi/R2022b/RobotWindow.js';
+import RobotWindow from 'https://cyberbotics.com/wwi/R2023b/RobotWindow.js';
 
 const benchmarkName = 'Highway Driving';
 let timeValue = 0;

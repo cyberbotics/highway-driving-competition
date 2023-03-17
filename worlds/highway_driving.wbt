@@ -1,34 +1,34 @@
-#VRML_SIM R2022b utf8
+#VRML_SIM R2023b utf8
 
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/road/protos/Road.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/road/protos/RoadLine.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/samples/robotbenchmark/highway_driving/protos/HighwayDrivingBenchmark.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/lincoln/LincolnMKZ.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/samples/robotbenchmark/highway_driving/protos/DistanceSensorVisualization.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/range_rover/RangeRoverSportSVRSimple.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/TrafficCone.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/HighwayPole.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/HighwaySign.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Grass.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/geometries/protos/Extrusion.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/trees/protos/Forest.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/BusSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/bmw/BmwX5Simple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/lincoln/LincolnMKZSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/mercedes_benz/MercedesBenzSprinterSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/MotorbikeSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/MotorbikeDriver.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/TruckSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/TruckTrailerSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/TruckTankSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/ScooterSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/generic/ScooterDriver.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/citroen/CitroenCZeroSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/toyota/ToyotaPriusSimple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/vehicles/protos/tesla/TeslaModel3Simple.proto"
-IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/default/protos/SumoInterface.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/Road.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/road/protos/RoadLine.proto"
+EXTERNPROTO "../protos/HighwayDrivingBenchmark.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/lincoln/LincolnMKZ.proto"
+EXTERNPROTO "../protos/DistanceSensorVisualization.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/range_rover/RangeRoverSportSVRSimple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/HighwayPole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/HighwaySign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Grass.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/geometries/protos/Extrusion.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/trees/protos/Forest.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/BusSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/bmw/BmwX5Simple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/lincoln/LincolnMKZSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/mercedes_benz/MercedesBenzSprinterSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/MotorbikeSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/MotorbikeDriver.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/TruckSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/TruckTrailerSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/TruckTankSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/ScooterSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/generic/ScooterDriver.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/citroen/CitroenCZeroSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/toyota/ToyotaPriusSimple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/vehicles/protos/tesla/TeslaModel3Simple.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/default/protos/SumoInterface.proto"
 
 WorldInfo {
   info [
@@ -573,7 +573,7 @@ HighwayPole {
     HighwaySign {
       translation 0 -7.23 0
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
       ]
     }
   ]
@@ -584,7 +584,7 @@ HighwayPole {
       height 1.7
       length 3.5
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
       ]
     }
   ]
@@ -602,7 +602,7 @@ HighwayPole {
     HighwaySign {
       translation 0 -7.23 0
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
       ]
     }
   ]
@@ -613,7 +613,7 @@ HighwayPole {
       height 1.7
       length 3.5
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
       ]
     }
   ]
@@ -631,7 +631,7 @@ HighwayPole {
     HighwaySign {
       translation 0 -7.23 0
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
       ]
     }
   ]
@@ -642,7 +642,7 @@ HighwayPole {
       height 1.7
       length 3.5
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
       ]
     }
   ]
@@ -660,7 +660,7 @@ HighwayPole {
     HighwaySign {
       translation 0 -7.23 0
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_bayonne.jpg"
       ]
     }
   ]
@@ -671,7 +671,7 @@ HighwayPole {
       height 1.7
       length 3.5
       texture [
-        "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/traffic/protos/textures/highway_sign_sebastian.jpg"
       ]
     }
   ]
