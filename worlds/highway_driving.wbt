@@ -107,7 +107,7 @@ DEF VIEWPOINT Viewpoint {
   orientation -0.12456004236613552 0.07553136441515595 0.9893330121022604 1.7763124989340133
   position 12.265064505159032 22.7381159624318 5.3109575466519
   near 1
-  follow "vehicle"
+  follow "participant"
   followSmoothness 0.01
   ambientOcclusionRadius 7
 }
@@ -315,7 +315,6 @@ DEF WEBOTS_VEHICLE0 LincolnMKZ {
           translation 1.32 -0.95 0.3
           range 10
           aperture 0.9
-          diffuseColor 0.6678870747831382 0 0.33211292521686175
         }
         DEF LEFT_VISUALIZATION DistanceSensorVisualization {
           translation 1.32 0.95 0.3

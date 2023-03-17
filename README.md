@@ -12,11 +12,6 @@
 - <https://github.com/cyberbotics/robot-programming-competition-disabled>
 - <https://github.com/cyberbotics/inverted-pendulum-competition-disabled>
 -->
-## Organizer Setup
-
-To organize your own competition, follow the instructions in the [ORGANIZER.md](ORGANIZER.md) file.
-
----
 
 ## Description
 
