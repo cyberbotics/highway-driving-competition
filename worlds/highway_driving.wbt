@@ -36,7 +36,7 @@ WorldInfo {
     "The goal is to drive the farther as possible in one minute without colliding any other vehicles or static objects. "
     "All the sensors and actuators of the robot can be used to achieve the best performance. "
   ]
-  title "Highway Driving"
+  title "Highway Driving Competition"
   window "highway_driving"
   ERP 0.6
   basicTimeStep 10
