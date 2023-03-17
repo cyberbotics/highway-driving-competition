@@ -1,26 +1,51 @@
-"""Simple robot controller."""
+"""Sample Webots controller for highway driving benchmark."""
 
-from controller import Robot
-import sys
+from vehicle import Driver
 
-# Define the target motor position in radians.
-target = 1
+# name of the available distance sensors
+sensorsNames = [
+    'front',
+    'front right 0',
+    'front right 1',
+    'front right 2',
+    'front left 0',
+    'front left 1',
+    'front left 2',
+    'rear',
+    'rear left',
+    'rear right',
+    'right',
+    'left']
+sensors = {}
 
-# Get pointer to the robot.
-robot = Robot()
+maxSpeed = 80
+driver = Driver()
+driver.setSteeringAngle(0.0)  # go straight
 
-# Print the program output on the console
-print("Move the motors of the Thymio II to position " + str(target) + ".")
+# get and enable the distance sensors
+for name in sensorsNames:
+    sensors[name] = driver.getDevice('distance sensor ' + name)
+    sensors[name].enable(10)
 
-# Set the target position of the left and right wheels motors.
-robot.getDevice("motor.left").setPosition(target)
-robot.getDevice("motor.right").setPosition(target)
+# get and enable the GPS
+gps = driver.getDevice('gps')
+gps.enable(10)
 
-# Run the simulation for 10 seconds
-robot.step(10000)
+# get the camera
+camera = driver.getDevice('camera')
+# uncomment those lines to enable the camera
+# camera.enable(50)
+# camera.recognitionEnable(50)
 
-# This is the simplest controller that works for this competition
-# If you want to experiment with more complex functions, you can read the programming guide here:
-# https://www.cyberbotics.com/doc/guide/controller-programming?tab-language=python
-# or the Robot() documentation here:
-# https://cyberbotics.com/doc/reference/robot?tab-language=python
+while driver.step() != -1:
+    # adjust the speed according to the value returned by the front distance sensor
+    frontDistance = sensors['front'].getValue()
+    frontRange = sensors['front'].getMaxValue()
+    speed = maxSpeed * frontDistance / frontRange
+    driver.setCruisingSpeed(speed)
+    # brake if we need to reduce the speed
+    speedDiff = driver.getCurrentSpeed() - speed
+    if speedDiff > 0:
+        driver.setBrakeIntensity(min(speedDiff / speed, 1))
+    else:
+        driver.setBrakeIntensity(0)

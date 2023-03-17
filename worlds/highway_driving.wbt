@@ -169,7 +169,8 @@ HighwayDrivingBenchmark {
 DEF WEBOTS_VEHICLE0 LincolnMKZ {
   translation 2.00063 44.0884 0.4
   rotation 0 0 1 1.5708
-  controller "highway_driving"
+  name "participant"
+  controller "participant"
   synchronization FALSE
   sensorsSlotFront [
     DEF FRONT DistanceSensor {
