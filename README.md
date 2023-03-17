@@ -1,6 +1,6 @@
 <span id="title">
 
-# Competition Organizer Template
+# Highway Driving Competition
 
 </span>
 
@@ -22,7 +22,7 @@ To organize your own competition, follow the instructions in the [ORGANIZER.md](
 
 <span id="description">
 
-Write here a short description of your competition.
+Program a Lincoln MKZ autonomous car to drive as fast as possible on a crowded highway.
 
 </span>
 
@@ -32,10 +32,10 @@ Write here a short description of your competition.
 
 <span id="information">
 
-- Difficulty: Middle School, High School, Bachelor, Master or PhD
-- Robot: robot name
-- Language: programming language of the controller template
-- Commitment: amount of time needed to participate in the competition
+- Difficulty: Master
+- Robot: LincolnMKZ
+- Language: Python
+- Commitment: A couple of days
 
 </span>
 
