@@ -9,6 +9,7 @@ ENV PORT=1234
 ARG WEBOTS_CONTROLLER_URL
 ENV WEBOTS_CONTROLLER_URL=${WEBOTS_CONTROLLER_URL}
 WORKDIR /usr/local/webots-project/controllers/participant
+ENV LD_LIBRARY_PATH=${WEBOTS_HOME}/lib/controller/:${LD_LIBRARY_PATH}
 
 # We run the controller using the extern controller launcher
 # https://cyberbotics.com/doc/guide/running-extern-robot-controllers?version=develop&tab-os=linux
