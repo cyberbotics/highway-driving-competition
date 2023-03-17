@@ -6,7 +6,7 @@ RUN mkdir -p /usr/local/webots-project
 COPY . /usr/local/webots-project
 
 # Install the driving simulation requirements
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install --no-install-recommends --yes \
     python3-pip \
     libxerces-c-dev \
     libfox-1.6-dev \
